@@ -241,9 +241,6 @@ input[type="search"]::-webkit-search-cancel-button {
   transform: translate(-50%, -50%);
   white-space: nowrap;
   height: 60vh;
-}
-
-.w3-include-container {
   overflow-y: auto;
 }
 
