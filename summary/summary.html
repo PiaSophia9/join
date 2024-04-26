@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="summary.css">
+    <link rel="stylesheet" href="summary.css" />
     <link rel="stylesheet" href="../assets/templates/header_and_sidebar.css" />
 
-    <link rel="icon" type="image/x-icon" href="../assets/img/logo.png">
+    <link rel="icon" type="image/x-icon" href="../assets/img/logo.png" />
     <title>Summary</title>
   </head>
   <body onload="initSummary()">
@@ -17,23 +17,21 @@
       <main>
         <div class="headline_container">
           <h1>Join 360</h1>
-          <img src="../assets/img/contacts_blue_line.png" alt="line" class="blue_line">
+          <img src="../assets/img/contacts_blue_line.png" alt="line" class="blue_line" />
           <p class="font_27">Key Metrics at a Glance</p>
         </div>
         <div class="summary_container">
           <section class="right">
-
             <div class="task_container">
               <div class="tasks" onclick="redirectToBoard()" onmouseover="changeIconTodoWhite()" onmouseleave="changeIconTodoBack()">
-                
-                <img src="../assets/img/icons/todo_task.svg" alt="To-do" id="todoImg">
+                <img src="../assets/img/icons/todo_task.svg" alt="To-do" id="todoImg" />
                 <div class="status_content">
                   <div id="todo" class="size_64"></div>
                   <span class="size_20">To-do</span>
                 </div>
               </div>
               <div class="tasks" onclick="redirectToBoard()" onmouseover="changeIconDoneWhite()" onmouseleave="changeIconTDoneBack()">
-                  <img src="../assets/img/icons/done_task.svg" alt="Done" class="icon_summary" id="doneImg">
+                <img src="../assets/img/icons/done_task.svg" alt="Done" class="icon_summary" id="doneImg" />
                 <div class="status_content">
                   <div id="done" class="size_64"></div>
                   <span class="size_20">Done</span>
@@ -43,23 +41,20 @@
 
             <div class="deadline_container" onclick="redirectToBoard()">
               <div class="urgent_task">
-
-                
-                <img src="../assets/img/icons/summary_urgent.png" alt="urgent image">
-                <div class="urgent_content"> 
-                <div id="urgent" class="size_64"></div>
-                <span class="size_20">Urgent</span>
+                <img src="../assets/img/icons/summary_urgent.png" alt="urgent image" />
+                <div class="urgent_content">
+                  <div id="urgent" class="size_64"></div>
+                  <span class="size_20">Urgent</span>
+                </div>
               </div>
-              </div>
-              <img src="../assets/img/icons/summary_vertical_line.png" alt="line">
+              <img src="../assets/img/icons/summary_vertical_line.png" alt="line" />
               <div>
                 <div id="urgentDate"></div>
-            
+
                 <span>Upcoming Deadline</span>
               </div>
             </div>
             <div class="overview_container">
-
               <div class="overview" onclick="redirectToBoard()">
                 <div id="tasksInBoard" class="size_64"></div>
                 <span class="size_20">Tasks in Board</span>
@@ -69,12 +64,11 @@
                 <div id="tasksInProgress" class="size_64"></div>
                 <span class="size_20">Tasks in Progress</span>
               </div>
-    
+
               <div class="overview" onclick="redirectToBoard()">
                 <div id="awaitingFeedback" class="size_64"></div>
                 <span class="size_20">Awaiting Feedback</span>
               </div>
-             
             </div>
           </section>
 
