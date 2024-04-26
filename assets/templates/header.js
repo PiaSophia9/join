@@ -10,10 +10,8 @@ async function loadUserInitials() {
   if (storedInitials) {
     storedInitials = JSON.parse(storedInitials);
     loggedUserInitials.innerHTML = storedInitials;
-    return storedInitials;
   } else {
     document.getElementById("user_initials").innerHTML = "G";
-    return "G";
   }
 }
 
