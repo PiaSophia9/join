@@ -5,7 +5,7 @@
  * and logging the "summarySidebar" link.
  */
 async function initSummary() {
-  includeHTML();
+  await includeHTML();
   await loadAllTasksSummary();
   await loadUserName();
   await loadUserInitials();
