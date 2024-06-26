@@ -22,7 +22,7 @@ let colors = [
  */
 async function initUser() {
   resetSignUpForm();
-  await loadAllUsers();
+  // await loadAllUsers();
 }
 
 /**
