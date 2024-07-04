@@ -362,16 +362,11 @@ input[type="search"]::-webkit-search-cancel-button {
   margin-block-start: 0;
   margin-block-end: 0;
   margin-bottom: 16px;
+  word-break: auto-phrase;
 }
 
 #taskForm {
   height: 60vh !important;
-}
-
-.details-bottom p {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-bottom: 16px;
 }
 
 #taskForm {
